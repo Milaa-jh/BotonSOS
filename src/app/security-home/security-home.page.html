@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Panel de Seguridad</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="security-container">
+    <ion-button expand="full" color="primary" [routerLink]="['/security-chat']">
+      Abrir Chat
+    </ion-button>
+
+    <ion-button expand="full" color="secondary" [routerLink]="['/security-emergency-list']">
+      Ver Emergencias
+    </ion-button>
+
+    <ion-button expand="full" color="tertiary" [routerLink]="['/security-map']">
+      Ver Mapa en Tiempo Real
+    </ion-button>
+  </div>
+</ion-content>
